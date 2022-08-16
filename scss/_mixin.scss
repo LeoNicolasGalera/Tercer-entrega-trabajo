@@ -1,0 +1,6 @@
+@mixin formadepago($flex-direction) {
+  display: flex;
+  flex-direction: $flex-direction;
+  align-items: center;
+  margin: 20px;
+}

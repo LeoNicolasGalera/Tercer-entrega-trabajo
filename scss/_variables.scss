@@ -1,1 +1,24 @@
-$color--bs-orange: #fd7e14;
+$color: (
+  "color-black": #131826,
+  "color-red": #fa0a06,
+  "color-green": #08fa52,
+  "color-blue": #0f09ff,
+  "color-indigo": #6610f2,
+  "color-purple": #6f42c1,
+  "color-pink": #d63384,
+  "color-orange": #fd7e14,
+  "color-white": #f7f7fb,
+);
+
+$font-sizes: (
+  "small": 10px,
+  "normal": 15px,
+  "large": 20px,
+  "extra-large": 30px,
+);
+
+$font-family: (
+  "estilo1": "Noto Sans",
+  "estilo2": sans-serif,
+  "estilo3": Arial,
+);

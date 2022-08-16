@@ -1,0 +1,25 @@
+.producto-producto {
+  margin: 10px;
+}
+
+.pagina-cocina {
+  margin: 20px;
+  border: 10px;
+  .imagen-cocina {
+    background-size: cover;
+  }
+  .tarjeta-griferia {
+    gap: 10px;
+    margin: 50px;
+    div {
+      gap: 20px;
+      margin: 20;
+      justify-content: space-around;
+    }
+  }
+  .btn {
+    &:hover {
+      background-color: black;
+    }
+  }
+}

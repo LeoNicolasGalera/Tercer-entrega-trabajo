@@ -1,6 +1,15 @@
 header {
+  img {
+    padding: 3px;
+  }
+  .navbar-toggler {
+    color: map-get($color, color-white);
+  }
+  .collapse {
+    font-family: map-get($font-family, estilo1);
+  }
+
   .imagenes-contacto {
-    grid-area: imagenes-contacto;
     display: flex;
     max-width: 100%;
     max-height: 100%;
@@ -10,18 +19,11 @@ header {
     a {
       text-decoration: none;
       padding: 0.5rem;
-      color: black;
+      color: map-get($color, color-black);
     }
 
     i {
       padding: 0.5rem;
     }
-  }
-
-  header div img {
-    padding: 3px;
-  }
-  .navbar-toggler {
-    background-color: white;
   }
 }
