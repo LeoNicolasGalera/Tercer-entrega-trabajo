@@ -1,0 +1,17 @@
+.formulario-contacto {
+  margin-right: map-get($display-font-sizes, 1);
+  padding: 2px;
+
+  .entradas {
+    padding: 2px;
+    margin: 5px;
+  }
+
+  .mb-3 {
+    padding: 10px;
+  }
+  .btn {
+    margin: 3px;
+    padding: 10px;
+  }
+}

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(/node_modules/bootstrap/scss/_variables.scss);
 footer {
   background-color: black;
   color: white;
@@ -35,27 +36,6 @@ header .imagenes-contacto a {
 }
 header .imagenes-contacto i {
   padding: 0.5rem;
-}
-
-.formulario-contacto .entradas {
-  margin: 5px;
-}
-.formulario-contacto .mb-3 {
-  padding: 10px;
-}
-
-.formadepago .visa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-}
-.formadepago .logo-tarjeta {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px;
-  justify-content: space-around;
 }
 
 .mapas {
@@ -97,17 +77,56 @@ header .imagenes-contacto i {
   justify-content: space-around;
 }
 .pagina-cocina .btn:hover {
-  background-color: black;
+  background-color: #131826;
 }
 
-.tarj-nuevo {
-  margin: 10px;
+.formadepago .visa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.formadepago .logo-tarjeta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-around;
 }
 
 .tarjetas-inspirate {
   margin: 10px;
   padding: 20px;
   gap: 8px;
+}
+
+.formulario-contacto {
+  margin-right: 1rem;
+  padding: 2px;
+}
+.formulario-contacto .entradas {
+  padding: 2px;
+  margin: 5px;
+}
+.formulario-contacto .mb-3 {
+  padding: 10px;
+}
+.formulario-contacto .btn {
+  margin: 3px;
+  padding: 10px;
+}
+
+.tarjetas-index .card {
+  gap: 2px;
+  padding: 3rem;
+  margin: 1rem;
+}
+.tarjetas-index h3, .tarjetas-index .h3 {
+  text-align: center;
+  margin: 2rem;
+}
+.tarjetas-index .card {
+  text-align: center;
 }
 
 /*!
@@ -596,69 +615,70 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
-  .display-1 {
-    font-size: 5rem;
-  }
-}
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: calc(1.325rem + 0.9vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-2 {
-    font-size: 4.5rem;
+    font-size: 2rem;
   }
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-3 {
-    font-size: 4rem;
-  }
-}
-
-.display-4 {
-  font-size: calc(1.475rem + 2.7vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-4 {
-    font-size: 3.5rem;
-  }
-}
-
-.display-5 {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
-  .display-5 {
+  .display-3 {
     font-size: 3rem;
   }
 }
 
+.display-4 {
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 4rem;
+  }
+}
+
+.display-5 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 5rem;
+  }
+}
+
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.725rem + 5.7vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-6 {
-    font-size: 2.5rem;
+    font-size: 6rem;
   }
+}
+
+.display-7 {
+  font-size: 0.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .list-unstyled {

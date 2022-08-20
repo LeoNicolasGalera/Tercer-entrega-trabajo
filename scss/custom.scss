@@ -1,10 +1,15 @@
 @import "variables";
+@import url(/node_modules/bootstrap/scss/_variables.scss);
 @import "mixin";
 @import "footer";
 @import "header";
-@import "paginasgeneral";
+@import "ubicacion";
 @import "productos";
-@import "tarjingreso";
-@import "tarjinspirate";
+@import "formadepago";
+@import "inspirate";
+@import "contacto";
+@import "index";
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+

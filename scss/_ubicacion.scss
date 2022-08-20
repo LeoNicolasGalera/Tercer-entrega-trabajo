@@ -1,0 +1,18 @@
+.mapas {
+  margin: 30px;
+
+  h1 {
+    text-align: center;
+  }
+  .parrafo-mapas {
+    margin: 10px;
+    padding: 10px;
+    z-index: 2;
+    font-size: 30px;
+  }
+  .imagen-parrafo {
+    background-image: url(../imagenes/horarios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

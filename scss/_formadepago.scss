@@ -1,0 +1,29 @@
+.formadepago {
+  .visa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .credito {
+    @extend .formadepago;
+  }
+
+  .cheque {
+    @extend .formadepago;
+  }
+
+  .efectivo {
+    @extend .formadepago;
+  }
+
+  .transferencia {
+    @extend .formadepago;
+  }
+
+  .logo-tarjeta {
+    @include formadepago(row);
+    justify-content: space-around;
+  }
+}
