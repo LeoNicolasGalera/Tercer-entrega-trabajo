@@ -5,12 +5,19 @@ footer {
   color: white;
   font-size: 20px;
   height: 100%;
+  width: 100%;
   text-align: center;
   align-items: center;
   clear: both;
   padding: 0;
   margin: 0;
   font-family: "Noto Sans";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header img {
@@ -24,7 +31,7 @@ header .collapse {
 }
 header .imagenes-contacto {
   display: flex;
-  max-width: 100%;
+  max-width: 100vw;
   max-height: 100%;
   flex-direction: row;
   margin: 1rem;
@@ -127,6 +134,16 @@ header .imagenes-contacto i {
 }
 .tarjetas-index .card {
   text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /*!
