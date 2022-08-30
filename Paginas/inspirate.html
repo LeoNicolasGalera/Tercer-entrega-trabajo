@@ -20,6 +20,12 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Diplomata+SC&family=Old+Standard+TT:ital@1&family=Parisienne&family=Quicksand&family=Rubik+Mono+One&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="shortcut icon"
+      href="/imagenes/dovela-icon.ico"
+      type="image/icon"
+    />
+
     <!--AGREGAMOS SEO-->
     <meta
       name="description"
@@ -34,62 +40,75 @@
 
   <body>
     <header>
-      <div class="imagenes-contacto">
-        <div>
-          <a href="https://api.whatsapp.com/send?phone=549351622921"
-            ><i class="fa-brands fa-whatsapp"></i>Escribir Ahora</a
-          >
-        </div>
-        <div>
-          <a href="mailto:dovela.altagracia@gmail.com"
-            ><i class="fa-solid fa-envelope"></i>E-Mail</a
-          >
+      <div class="container-fluid">
+        <div class="imagenes-contacto col-mb-4">
+          <div>
+            <a href="https://api.whatsapp.com/send?phone=549351622921"
+              ><i class="fa-brands fa-whatsapp"></i>Escribir Ahora</a
+            >
+          </div>
+          <div>
+            <a href="mailto:dovela.altagracia@gmail.com"
+              ><i class="fa-solid fa-envelope"></i>E-Mail</a
+            >
+          </div>
         </div>
       </div>
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-white">
+
+      <nav class="navbar navbar-expand-lg shadow menu-navegacion">
+        <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"
-            ><img src="../imagenes/dovela.jpg" alt="logo negocio" width="40%"
+            ><img
+              src="../imagenes/dovela.png"
+              alt="logo negocio"
+              class="img-fluid"
           /></a>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler justify-content-center"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
+            aria-expanded="true"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <ul class="nav nav-tabs pestaña">
-                <a class="nav-link text-black" href="productos.html"
-                  >PRODUCTOS</a
-                >
-                <a class="nav-link text-black" href="inspirate.html"
-                  >INSPIRATE</a
-                >
-                <a class="nav-link text-black" href="forma de Pago.html"
-                  >FORMA DE PAGO</a
-                >
-                <a class="nav-link text-black" href="ubicacion.html"
-                  >UBICACION</a
-                >
-                <a class="nav-link text-black" href="contacto.html">CONTACTO</a>
-              </ul>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav nav-tabs">
+              <a class="nav-link text-black" href="../Paginas/productos.html"
+                >PRODUCTOS</a
+              >
+              <a class="nav-link text-black" href="../Paginas/inspirate.html"
+                >INSPIRATE</a
+              >
+              <a
+                class="nav-link text-black"
+                href="../Paginas/forma de Pago.html"
+                >FORMA DE PAGO</a
+              >
+              <a class="nav-link text-black" href="../Paginas/ubicacion.html"
+                >UBICACION</a
+              >
+              <a class="nav-link text-black" href="../Paginas/contacto.html"
+                >CONTACTO</a
+              >
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-      <div class="conteiner-fluid">
-        <section class="row justify-content-center tarjetas-inspirate">
+      <div class="container-fluid">
+        <section
+          class="row col-mb 12 justify-content-center tarjetas-inspirate"
+        >
           <div class="card-inspirate" style="width: 18rem">
             <img
               src="../imagenes/porc gris.png"
@@ -166,18 +185,24 @@
         </section>
       </div>
     </main>
-
     <footer>
-      <h1><strong>Contacta Con Nosotros</strong></h1>
-      <p>
-        <img src="../imagenes/googlemaps.png" alt="maps" /> Hipolito Yrigoyen
-        1403 Alta Gracia,Cordoba, Argentina
-        <br />
-        <img src="../imagenes/Whatsapps.png" alt="Whatsapps" /> 3547-622129
-        <br />
-        <img src="../imagenes/gmail.png" alt="mail" />
-        dovela.altagracia@gmail.com
-      </p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-sm-12">
+            <h1><strong>Contacta Con Nosotros</strong></h1>
+            <p>
+              <img src="../imagenes/googlemaps.png" alt="maps" /> Hipolito
+              Yrigoyen 1403 Alta Gracia,Cordoba, Argentina
+              <br />
+              <img src="../imagenes/Whatsapps.png" alt="Whatsapps" />
+              3547-622129
+              <br />
+              <img src="../imagenes/gmail.png" alt="mail" />
+              dovela.altagracia@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

@@ -5,9 +5,9 @@ footer {
   height: 100%;
   width: 100%;
   text-align: center;
-  align-items: center;
+  align-items: flex-end;
   clear: both;
   padding: 0;
   margin: 0;
-  font-family: map-get($font-family, estilo1);
+  font-family: map-get($font-family, estilo4);
 }

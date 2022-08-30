@@ -1,17 +1,14 @@
-.tarjetas-index{  
-.card{
+.tarjetas-index {
+  .card {
     gap: 2px;
-    padding:map-get($display-font-sizes , 3);
-    margin:map-get($display-font-sizes , 1);
-}
-   h3{
+    padding: map-get($display-font-sizes, 3);
+    margin: map-get($display-font-sizes, 1);
+  }
+  h3 {
     text-align: center;
-    margin: 2rem
-   }
-  .card{
+    margin: 2rem;
+  }
+  .card {
     text-align: center;
-   }
+  }
 }
-
-
-

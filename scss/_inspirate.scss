@@ -2,4 +2,8 @@
   margin: 10px;
   padding: 20px;
   gap: 8px;
+
+  img {
+    padding: map-get($display-font-sizes, 7);
+  }
 }
