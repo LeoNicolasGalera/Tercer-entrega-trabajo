@@ -17,5 +17,16 @@
 
   .contacto-parrafo__parrafo {
     text-align: left;
+
+    @media (max-width: 576px) {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+
+      .fa-brands,
+      .fa-solid {
+        display: block;
+      }
+    }
   }
 }

@@ -3,12 +3,10 @@
     gap: 2px;
     padding: map-get($display-font-sizes, 3);
     margin: map-get($display-font-sizes, 1);
+    text-align: center;
   }
   h3 {
     text-align: center;
     margin: 2rem;
-  }
-  .card {
-    text-align: center;
   }
 }

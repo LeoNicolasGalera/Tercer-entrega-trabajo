@@ -15,6 +15,7 @@ $font-sizes: (
   "normal": 15px,
   "large": 20px,
   "extra-large": 30px,
+  "extra-pequeño": 5px,
 );
 
 $font-family: (
@@ -31,4 +32,12 @@ $display-font-sizes: (
   5: 5rem,
   6: 6rem,
   7: 0.5rem,
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
 );
